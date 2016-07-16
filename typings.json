@@ -1,0 +1,10 @@
+{
+  "name": "easy-node-inspector",
+  "resolution": {
+    "main": "src/typings"
+  },
+  "dependencies": {},
+  "globalDevDependencies": {
+    "node": "registry:env/node#6.0.0+20160622202520"
+  }
+}

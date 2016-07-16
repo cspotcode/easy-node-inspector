@@ -1,0 +1,6 @@
+{
+  "name": "nw-app",
+  "version": "1.0.0",
+  "description": "Opens a URL in nw.js.  Really simple",
+  "main": "index.js"
+}

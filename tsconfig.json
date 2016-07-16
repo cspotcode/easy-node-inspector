@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es6",
+        "noImplicitAny": false,
+        "sourceMap": true,
+        "sourceRoot": "src",
+        "moduleResolution": "node",
+        "outDir": "lib"
+    },
+    "files": [
+        "src/typings/index.d.ts",
+        "src/easy-node-debug.ts"
+    ]
+}

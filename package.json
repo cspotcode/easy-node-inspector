@@ -1,0 +1,24 @@
+{
+  "name": "easy-node-inspector",
+  "version": "0.0.0",
+  "description": "Easier way to quickly open node-inspector; feels more like an app than a browser tab.",
+  "bin": {
+    "easy-node-debug": "./lib/easy-node-debug.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "npm run build",
+    "build": "tsc -p ."
+  },
+  "author": "Andrew Bradley <cspotcode@gmail.com> (https://github.com/cspotcode)",
+  "license": "MIT",
+  "dependencies": {
+    "@cspotcode/promise-cb": "^0.1.3",
+    "node-inspector": "^0.12.8",
+    "nw": "^0.15.4-sdk",
+    "portfinder": "^1.0.4"
+  },
+  "devDependencies": {
+    "typescript": "^1.8.10"
+  }
+}

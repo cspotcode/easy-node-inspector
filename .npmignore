@@ -1,0 +1,6 @@
+#lib
+nw-user-data-dir
+node_modules
+.idea
+.vscode
+.vagrant
